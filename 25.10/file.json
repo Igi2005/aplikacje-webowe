@@ -1,0 +1,18 @@
+{
+    "links":[
+      {
+          "site":"/api/students- zwraca listę minimum 10 obiektów o strukturze"
+      },
+      {
+        "site":"/api/students/:id zwraca studenta z określonym identyfikatorem lub 404"
+      },
+      {
+        "site":"/api/subjects - zwraca listę minimum 10 przedmiotów szkolnych w formacie"
+      },
+      {
+        "site":"/api/subjects/:id - zwraca przedmiot z określonym identyfikatorem lub 404"
+      }
+    ]
+  }
+
+  
