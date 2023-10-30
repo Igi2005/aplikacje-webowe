@@ -1,0 +1,20 @@
+CREATE DATABASE baza_node
+USE baza_node;
+
+create table students(
+    id int NOT NULL,
+    name text NOT NULL,
+    surname text NOT NULL,
+    email text NOT NULL
+);
+
+create table subjects(
+    id int NOT NULL,
+    name text not null,
+    hoursAWeek int not null
+);
+
+create table messages(
+    content text
+)
+
