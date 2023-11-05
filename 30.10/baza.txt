@@ -16,5 +16,15 @@ create table subjects(
 
 create table messages(
     content text
-)
+);
+insert into students values(1, 'Adam', 'Koks', 'cos@wp.pl'),
+    ( 2,  'Bambi',  'Szef', 'bambi@zsk.pl'),
+    ( 3,  'Maciek',  'Tak',  'nie ma'),
+     (4,  'Jakub',  'Nie',  'brak'),
+     (5,  'Hugo',  'Na miejscu',  'brak'),
+     (6,  'Aleks', 'Aleks',  'brak'),
+     (7,  'Adamos',  'Ramos',  'real@gmail.com'),
+     (8,  'Darwin',  'Nunez GOAT',  'darwin.GOAT@wp.pl'),
+    ( 9, 'Leo',  'Pepsi',  'colacola@wp.pl'),
+    ( 10,  'Krystiano', 'Ronaldo',  'GOAT2@wp.pl');
 
