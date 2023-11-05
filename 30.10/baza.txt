@@ -28,3 +28,14 @@ insert into students values(1, 'Adam', 'Koks', 'cos@wp.pl'),
     ( 9, 'Leo',  'Pepsi',  'colacola@wp.pl'),
     ( 10,  'Krystiano', 'Ronaldo',  'GOAT2@wp.pl');
 
+insert into subjects values    ( 1,  "TAI",  12),
+    ( 2,  "Matematyka",  20),
+    ( 3,  "Polski",  0),
+    ( 4,  "Geografia",  0),
+    ( 5,  "Fizyka",  0),
+    ( 6,  "Chemia",  0),
+    ( 7,  "Biologia",  0),
+    ( 8,  "Religia",  2),
+   ( 9,  "Niemiecki",  10),
+    ( 10,  "Ang", 10);
+
