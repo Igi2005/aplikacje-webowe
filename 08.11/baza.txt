@@ -41,3 +41,5 @@ insert into subjects values    ( 1,  "TAI",  12),
     ( 8,  "Religia",  2),
    ( 9,  "Niemiecki",  10),
     ( 10,  "Ang", 10);
+
+do .env -> DATABASE_URL="mysql://root:@localhost:3306/baza_node"
