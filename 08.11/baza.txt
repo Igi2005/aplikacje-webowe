@@ -1,0 +1,43 @@
+CREATE DATABASE baza_node
+USE baza_node;
+
+create table students(
+    id int NOT NULL,
+    name text NOT NULL,
+    surname text NOT NULL,
+    email text NOT NULL
+);
+
+create table subjects(
+    id int NOT NULL,
+    name text not null,
+    hoursAWeek int not null
+);
+
+create table messages(
+    id id int AUTO_INCREMENT PRIMARY key,
+    email text not null,
+    topic text not null,
+    content text not null
+);
+insert into students values(1, 'Adam', 'Koks', 'cos@wp.pl'),
+    ( 2,  'Bambi',  'Szef', 'bambi@zsk.pl'),
+    ( 3,  'Maciek',  'Tak',  'nie ma'),
+     (4,  'Jakub',  'Nie',  'brak'),
+     (5,  'Hugo',  'Na miejscu',  'brak'),
+     (6,  'Aleks', 'Aleks',  'brak'),
+     (7,  'Adamos',  'Ramos',  'real@gmail.com'),
+     (8,  'Darwin',  'Nunez GOAT',  'darwin.GOAT@wp.pl'),
+    ( 9, 'Leo',  'Pepsi',  'colacola@wp.pl'),
+    ( 10,  'Krystiano', 'Ronaldo',  'GOAT2@wp.pl');
+
+insert into subjects values    ( 1,  "TAI",  12),
+    ( 2,  "Matematyka",  20),
+    ( 3,  "Polski",  0),
+    ( 4,  "Geografia",  0),
+    ( 5,  "Fizyka",  0),
+    ( 6,  "Chemia",  0),
+    ( 7,  "Biologia",  0),
+    ( 8,  "Religia",  2),
+   ( 9,  "Niemiecki",  10),
+    ( 10,  "Ang", 10);
