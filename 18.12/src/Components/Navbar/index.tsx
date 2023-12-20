@@ -1,15 +1,16 @@
 import {Link} from "react-router-dom"
+import {routes} from "../../Helpers/routers.tsx"
 
 function Navbar() {
     return (
         <nav>
             <ul>
-                <li>
-                    <Link to='/'>Homepage</Link>
-                </li>
-                <li>
-                    <Link to='/about'>About us</Link>
-                </li>
+                {routes.map((route)=>(
+                    <li key={route.path}>
+                        <Link to={route.path}>{route.title}</Link>
+                    </li>
+                )
+                )}
             </ul>
         </nav>
     )

@@ -1,18 +1,20 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import About from "./pages/About/index.tsx"
-import Homepage from "./pages/Homepage/index.tsx"
 import Navbar from "./Components/Navbar/index.tsx"
+import {routes} from "./Helpers/routers.tsx"
 
 function App() {
-
-
   return (
     <Router>
       <Navbar/>
         <Routes>
-          <Route path="/" element={<Homepage/>}/>
-          <Route path="/about" element={<About/>}/>
+          {routes.map((route)=>(
+            <Route
+              key = {route.path}
+              path = {route.path}
+              element = {route.element}
+            />
+          ))}
         </Routes>
     </Router>
   )
