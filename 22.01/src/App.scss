@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-items: start;
+}
+
+div {
+    width: 100%;
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    text-decoration: none;
+}
+
+li:hover {
+    color: hotpink;
+}
+
+h1:hover {
+    color: hotpink;
+}
+
+Footer {
+    color: lightgreen;
+}
+
+Footer:hover {
+    color: lightcoral;
+}
